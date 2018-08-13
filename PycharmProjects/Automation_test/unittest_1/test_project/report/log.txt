@@ -1,0 +1,17 @@
+F.
+======================================================================
+FAIL: test_baidu (test_baidu.MyTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\Administrator\PycharmProjects\Automation_test\unittest_1\test_project\test_case\test_baidu.py", line 18, in test_baidu
+    self.assertEqual(title,"unittest_度搜索")
+AssertionError: 'unittest_百度搜索' != 'unittest_度搜索'
+- unittest_百度搜索
+?          -
++ unittest_度搜索
+
+
+----------------------------------------------------------------------
+Ran 2 tests in 23.924s
+
+FAILED (failures=1)
